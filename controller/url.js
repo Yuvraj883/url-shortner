@@ -18,6 +18,6 @@ const handleGenerateShortURL = async (req, res)=>{
   return res.json({id: s_ID});
 }
 
-module.export = {
+module.exports = {
   handleGenerateShortURL
 }
